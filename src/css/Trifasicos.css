@@ -1,0 +1,68 @@
+.trifasico__header{
+    background-color: black;
+    height: 80px;
+}
+
+.trifasico__header ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.trifasico__header a{
+    text-decoration: none;
+    color: white;
+}
+
+.trifasico__header a:hover{
+    text-decoration: underline;
+}
+
+.form__select{
+    padding: 10px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 15px !important;
+}
+
+.lista{
+    margin-top: 40px;
+    
+}
+
+.motor__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.info{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 5px;
+}
+
+.btn-ver{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
